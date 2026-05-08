@@ -5,6 +5,6 @@ const authRoutes = Router()
 
 authRoutes.post("/register", authController.registerUserController)
 
-authRoutes.post("/api/login", authController.loginUserController)
+authRoutes.post("/login", authController.loginUserController)
 
 module.exports = authRoutes
